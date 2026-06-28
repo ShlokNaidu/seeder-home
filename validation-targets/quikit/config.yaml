@@ -1,0 +1,11 @@
+name: quikit
+url: "https://quikit-alokdevlopers-projects.vercel.app/?next=%2Fapps"
+credentials:
+  email: "amit@quikit.com"
+  password: "Alok@123"
+database:
+  connection: "postgresql://neondb_owner:npg_iKJ3Zqm9fFpH@ep-mute-bar-aqk1j5rt-pooler.c-8.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+schema:
+  path: "data-seeder-home/schema.prisma"
+execution:
+  mode: validate

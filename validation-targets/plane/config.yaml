@@ -1,0 +1,11 @@
+name: plane
+url: "http://localhost:3000"
+credentials:
+  email: "admin@example.com"
+  password: "password123"
+database:
+  connection: ""
+schema:
+  path: ""
+execution:
+  mode: validate

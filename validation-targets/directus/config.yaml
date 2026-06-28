@@ -1,0 +1,7 @@
+target: directus
+url: "http://localhost:8055"
+execution:
+  mode: validate
+credentials:
+  email: "admin@example.com"
+  password: "password123"

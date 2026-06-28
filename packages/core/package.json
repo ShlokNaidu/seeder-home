@@ -1,0 +1,20 @@
+{
+  "name": "@seeder/core",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/",
+    "test": "echo 'No tests yet'"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "latest",
+    "@opentelemetry/sdk-node": "latest",
+    "pino": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}

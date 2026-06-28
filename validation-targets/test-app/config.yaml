@@ -1,0 +1,7 @@
+url: "http://localhost:3000"
+credentials:
+  email: "test@example.com"
+  password: "password"
+execution:
+  mode: probe
+

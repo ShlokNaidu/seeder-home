@@ -1,0 +1,24 @@
+node_modules/
+dist/
+build/
+coverage/
+
+# Artifacts and Runtime outputs
+artifacts/
+tmp/
+logs/
+screenshots/
+trace.zip
+network.har
+runtime-dumps/
+
+# Benchmark Outputs
+*-report.json
+product-benchmarks.json
+failure-backlog.json
+validation-matrix.json
+
+# Tooling
+.turbo/
+graphify-out/
+.env

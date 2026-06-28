@@ -1,0 +1,19 @@
+{
+  "name": "@seeder/graph",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/",
+    "test": "echo 'No tests yet'"
+  },
+  "dependencies": {
+    "@seeder/contracts": "workspace:*",
+    "@seeder/core": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}

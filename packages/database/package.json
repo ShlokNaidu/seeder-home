@@ -1,0 +1,20 @@
+{
+  "name": "@seeder/database",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/",
+    "test": "echo 'No tests yet'"
+  },
+  "dependencies": {
+    "drizzle-orm": "latest",
+    "postgres": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "drizzle-kit": "latest"
+  }
+}

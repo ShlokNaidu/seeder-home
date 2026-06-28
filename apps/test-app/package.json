@@ -1,0 +1,31 @@
+{
+  "name": "@seeder/test-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "tsx watch src/server/index.ts",
+    "dev:client": "vite",
+    "build": "tsc && vite build",
+    "db:push": "prisma db push",
+    "db:generate": "prisma generate"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.1",
+    "@prisma/client": "^5.14.0",
+    "hono": "^4.3.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "prisma": "^5.14.0",
+    "tsx": "^4.10.5",
+    "vite": "^5.2.0",
+    "typescript": "latest"
+  }
+}

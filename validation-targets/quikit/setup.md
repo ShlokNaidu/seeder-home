@@ -1,0 +1,3 @@
+# Setup Instructions
+
+Run the official docker compose stack...
